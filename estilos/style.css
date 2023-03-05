@@ -40,3 +40,84 @@ iframe#tela {
     height: 470px;
     width: 266px;
 }
+
+#icones {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 120px;
+    height: 600px;
+
+}
+
+#icones .icone {
+    position: relative;
+    width: 120px;
+    height: 120px;
+
+    transition: .2s ease-out;
+}
+
+#icones .icone .bg {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 60%;
+    height: 60%;
+    background-color: #b40000;
+    transform: rotate(18deg);
+    border-radius: 20px;
+    transition: .2s ease-out;
+}
+
+
+#icones .icone .glass {
+    position: absolute;
+    width: 60%;
+    height: 60%;
+    backdrop-filter: blur(8px);
+    background-color: rgba(255, 255, 255, .1);
+    bottom: 20px;
+    left: 17px;
+    border: 2px solid rgba(255, 255, 255, .2);
+    border-radius: 20px;
+    z-index: 1;
+    display: grid;
+    place-items: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
+}
+
+#icones .icone:hover .bg {
+    transform: rotate(35deg);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.192);
+}
+
+#icones .icone:hover {
+    scale: 1.2;
+}
+
+#icones .icone .glass i{
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.527);
+}
+
+#icones .icone:nth-child(1) .bg{
+    background-color: #535353;
+}
+
+#icones .icone:nth-child(2) .bg{
+    background-color: #b40000;
+}
+
+#icones .icone:nth-child(3) .bg{
+    background-image: linear-gradient(#f77737, #c13584);
+}
+
+#icones .icone:nth-child(4) .bg{
+    background-color: #171515;
+}
+
+#icones .icone:nth-child(5) .bg{
+    background-color: #3b5998;
+}
+
