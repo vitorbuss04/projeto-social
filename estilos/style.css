@@ -106,18 +106,7 @@ iframe#tela {
 }
 
 #icones .icone:nth-child(2) .bg{
-    background-color: #b40000;
-}
-
-#icones .icone:nth-child(3) .bg{
-    background-image: linear-gradient(#f77737, #c13584);
-}
-
-#icones .icone:nth-child(4) .bg{
     background-color: #171515;
 }
 
-#icones .icone:nth-child(5) .bg{
-    background-color: #3b5998;
-}
 
